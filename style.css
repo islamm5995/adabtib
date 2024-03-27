@@ -68,10 +68,10 @@ table {
     font-size: 15px;
   } */
   table td {
-    font-size: 2.6vw;
+    font-size: 2.8vw;
   }
   th {
-    font-size: 3.2vw;
+    font-size: 3vw;
 }
   
   /* .tbl-4 td {
@@ -95,8 +95,7 @@ table {
     }
     table{
         /* display: block; */
-        display: flex;
-        flex-direction: column;
+       
 
     }
     table tr{
@@ -104,8 +103,7 @@ table {
         /* margin-bottom: 10px; */
         /* border: 1px solid #ddd; */
         display: table-row;
-        display: flex;
-        flex-direction: row;
+       
     }
     table td{
         /* display: block; */
