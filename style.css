@@ -1,0 +1,125 @@
+/* .container {
+  border-radius: 10px;
+  border: 1px solid;
+} */
+
+table {
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black; */
+    text-align: left;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 20px 15px rgb(216, 215, 215);
+  }
+  
+  table {
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  table,
+  th,
+  td {
+    margin-top: 170px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: right;
+    text-align: left; */
+    text-indent: 30px;
+  }
+  
+  .tbl-1 td {
+    font-family: cursive;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #f2f2f2;
+  } */
+  
+  th {
+    background-color: #0a5f40;
+    font-family: sans-serif;
+    color: white;
+    font-size: 3vw;
+  }
+  
+  th:hover {
+    color: #04aa6d;
+    cursor: pointer;
+  }
+  /* tr:hover {
+    background-color: coral;
+  } */
+  
+  tr:hover {
+    color: #04aa6d;
+    cursor: pointer;
+  }
+  .tbl-3 td {
+    color: #04aa6d;
+    font-weight: 900px;
+    background-color: #f2f2f2;
+    /* font-size: 18px;
+    font-size: 15px; */
+  }
+  
+  /* .tbl-2 td {
+    font-size: 15px;
+  } */
+  table td {
+    font-size: 1.8vw;
+  }
+  th {
+    font-size: 2.5vw;
+}
+  
+  /* .tbl-4 td {
+    font-size: 15px;
+  } */
+   /* @media(max-width:800px){
+    .container{
+        background-color: blue;
+    }
+    table{
+        background-color: brown;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }  */
+  @media screen and (max-width:480px) {
+    table{
+        border: 0;
+    }
+    table{
+        /* display: block; */
+
+    }
+    table tr{
+        /* display: block; */
+        /* margin-bottom: 10px; */
+        /* border: 1px solid #ddd; */
+        display: table-row;
+    }
+    table td{
+        /* display: block; */
+        /* text-align: right; */
+        display: table-cell;
+        word-wrap: break-word;
+        text-align: left;
+        padding: 10px;
+        /* font-size: 14px; */
+        font-size: 1.3vw;
+    }
+    table tr:nth-child(odd){
+        background-color: white;
+        /* display: block; */
+    }
+    .container{
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+  }
